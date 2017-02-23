@@ -1,0 +1,45 @@
+body {
+	margin: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+tr td {
+	padding: 5px 8px;
+	width: 120px;
+}
+
+#backgr {
+	background-image: url("Green-Bar.jpg");
+	color: white;
+	border-bottom: 1px solid #6A6C6B;
+}
+
+tr td {
+	border-right: 1px solid #bbb;
+
+}
+
+tr:nth-child(2n+1) {
+	background-color: #ECECD8;
+}
+
+.bottom-line {
+	border-bottom: 1px solid #bbb;
+}
+
+img {
+	padding: 5px 5px 0 5px;
+}
+
+tr td:last-child {
+	border-right: 0;
+}
+
+.css-checkbox {
+	cursor: pointer;
+}

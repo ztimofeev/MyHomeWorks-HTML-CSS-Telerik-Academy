@@ -1,0 +1,56 @@
+body {
+	background-color: #A9A9A9;
+}
+
+h1, li > a {
+	color: white;
+}
+
+li {
+	list-style-type: none;
+	font-size: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+p > a {
+	color: black;
+}
+
+#center {
+	text-align: center;
+	font-size: 3em;
+}
+
+nav {
+	text-align: center;
+	font-weight: bold;
+}
+
+.current {
+	background-color: #D3D3D3;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+li:last-child {
+	text-decoration: underline white;
+}
+
+#bottom-center {
+	text-align: center;
+	font-size: 20px;
+}
+
+footer p {
+	font-size: 14px;
+}
+
+p {
+	font-size: 20px;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Notebook Store</title>
+</head>
+
+<body>
+	<table align="center" border="2" cellspacing="1" cellpadding="10" style="border-radius: 10px">
+		<thead>
+			<th colspan="2" style="font-family: Garamond; text-align: center; font-size: 28px">
+				<a href="#">Apple</a>
+				<a href="#">Toshiba</a>
+				<a href="#">Lenovo</a>
+				<a href="#">Dell</a>
+				<a href="#">Asus</a>
+				<a href="#">Hacer</a>
+				<a href="#">HP</a>
+			</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<!--На втори ред влагам таблица без рамка, с един ред и две кленти -->
+					<table border="0" cellspacing="0">
+						<tr>
+							<td>
+								<!-- В тази клетка влагаме таблица с един ред и една клетка с рамка... -->
+								<table border="1" cellspacing="0">
+									<tr>
+										<td>
+											<table border="0"> <!-- ... и оттук нататък си вкарваме стоките в тази поредна вложена таблица :)-->
+												<tr>
+													<td> 
+														<fieldset>
+															<legend>Apple MacBook Air</legend>
+															<table style="font-family: Georgia;">
+																<tr>
+																	<td rowspan="2"><img src="macbook_air.png" width="120" /></td>
+																	<td>64 GB SSR</td>
+																</tr>
+																<tr>
+																	<td>2 GB DDR</td>
+																</tr>
+																<tr>
+																	<td>1300 USD</td>
+																	<td>Intel Core i5</td>
+																</tr>
+															</table>
+														</fieldset>
+													</td>
+													<td>
+														<fieldset>
+															<legend>Apple MacBook Air</legend>
+															<table style="font-family: Georgia;">
+																<tr>
+																	<td rowspan="2"><img src="macbook_air.png" width="120" /></td>
+																	<td>64 GB SSR</td>
+																</tr>
+																<tr>
+																	<td>2 GB DDR</td>
+																</tr>
+																<tr>
+																	<td>1300 USD</td>
+																	<td>Intel Core i5</td>
+																</tr>
+															</table>
+														</fieldset>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<fieldset>
+															<legend>Apple MacBook Air</legend>
+															<table style="font-family: Georgia;">
+																<tr>
+																	<td rowspan="2"><img src="macbook_air.png" width="120" /></td>
+																	<td>64 GB SSR</td>
+																</tr>
+																<tr>
+																	<td>2 GB DDR</td>
+																</tr>
+																<tr>
+																	<td>1300 USD</td>
+																	<td>Intel Core i5</td>
+																</tr>
+															</table>
+														</fieldset>
+													</td>
+													<td>
+														<fieldset>
+															<legend>Apple MacBook Air</legend>
+															<table style="font-family: Georgia;">
+																<tr>
+																	<td rowspan="2"><img src="macbook_air.png" width="120" /></td>
+																	<td>64 GB SSR</td>
+																</tr>
+																<tr>
+																	<td>2 GB DDR</td>
+																</tr>
+																<tr>
+																	<td>1300 USD</td>
+																	<td>Intel Core i5</td>
+																</tr>
+															</table>
+														</fieldset>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<fieldset>
+															<legend>Apple MacBook Air</legend>
+															<table style="font-family: Georgia;">
+																<tr>
+																	<td rowspan="2"><img src="macbook_air.png" width="120" /></td>
+																	<td>64 GB SSR</td>
+																</tr>
+																<tr>
+																	<td>2 GB DDR</td>
+																</tr>
+																<tr>
+																	<td>1300 USD</td>
+																	<td>Intel Core i5</td>
+																</tr>
+															</table>
+														</fieldset>
+													</td>
+													<td>
+														<fieldset>
+															<legend>Apple MacBook Air</legend>
+															<table style="font-family: Georgia;">
+																<tr>
+																	<td rowspan="2"><img src="macbook_air.png" width="120" /></td>
+																	<td>64 GB SSR</td>
+																</tr>
+																<tr>
+																	<td>2 GB DDR</td>
+																</tr>
+																<tr>
+																	<td>1300 USD</td>
+																	<td>Intel Core i5</td>
+																</tr>
+															</table>
+														</fieldset>
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td> <!-- Край на стоковата "идилия" ;)-->
+								<!-- Във втората клетка влагаме отново таблица, за да вкараме слайдерите с нужното отстояние от стените за по-добра визия -->
+								<table cellspacing="5" style="font-family: Georgia">
+									<tr>
+										<td>
+											<fieldset style="border: none;">
+												<h3>Min Price: 500 USD</h3>
+												<input type="range" min="500" max="1500" value="1000" /><br/>
+												<h3>Max Price: 1500 USD</h3>
+												<input type="range" min="500" max="1500" value="1000" /><br/>
+												<h3>Min RAM: 4 GB</h3>
+												<input type="range" min="4" max="16" value="10" /><br/>
+												<h3>Max RAM: 16 GB</h3>
+												<input type="range" min="4" max="16" value="10" />
+											</fieldset>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+
+</html>
